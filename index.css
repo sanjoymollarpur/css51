@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(0, 153, 69);
+}
+.container{
+    margin: auto;
+margin-left: 300px;
+}
+.list-element{
+
+    display: flex;
+    margin-left: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    background-color: blueviolet;
+}
+.box-1{
+    animation: box11 2s infinite alternate running;
+    transform: skew(-20deg);
+    background-color: blanchedalmond;
+}
+@keyframes box11 {
+    100%{
+        transform: skew(20deg);
+    }
+}
+.box-2{
+    animation: box12 2s infinite alternate running;
+    transform: skew(-20deg);
+   
+}
+@keyframes box12 {
+    100%{
+        transform: skew(20deg);
+    }
+}
+
+.box-3{
+    animation: box13 3s infinite ;
+    
+    background-color: blanchedalmond;
+}
+@keyframes box13 {
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
+.box-7{
+    animation: box15 3s infinite ;
+    
+    
+}
+@keyframes box15 {
+    100%{
+        transform: scaleY(1.5);
+    }
+}
+
+.box-8{
+    animation: box16 3s infinite ;
+    
+    background-color: red;
+}
+@keyframes box16 {
+    100%{
+        transform: scaleX(1.5);
+    }
+}
+
+.box-9{
+    animation: box17 3s infinite alternate;
+    
+    background-color: rgba(102, 255, 0, 0.685);
+}
+@keyframes box17 {
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+.hh{
+    margin-left: 200px;
+}
+.ll{
+    font-size: 30px;
+    color: red;
+}
+.box1{
+    transition: width 3s;
+}
+.box1:hover{
+width: 200px;
+}
+.box2{
+    transition: width 3s,height 3s;
+}
+.box2:hover{
+    height: 200px;
+    width: 200px;
+}
+.box3{
+    transition: width 3s ease;
+}
+.box3:hover{
+    
+    width: 400px;
+}
+.box4{
+    transition: width 3s ease-in;
+}
+.box4:hover{
+    
+    width: 400px;
+}
+.box5{
+    transition: width 3s ease-out;
+}
+.box5:hover{
+    
+    width: 400px;
+}
+.box6{
+    transition: width 3s ease-in-out;
+}
+.box6:hover{
+    
+    width: 400px;
+}
+.box7{
+    transition: width 3s linear;
+}
+.box7:hover{
+    
+    width: 200px;
+}
+.pp{
+    margin-left: 60px;
+}
+/*Animation part*/
+
